@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>معرض الوظائف | Job Fair</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body>
+    <header class="hero" id="top">
+      <nav class="nav">
+        <div class="logo">JOB FAIR</div>
+        <div class="nav-links">
+          <a href="#jobs">الوظائف</a>
+          <a href="#schedule">الجدول</a>
+          <a href="#companies">الشركات</a>
+          <a href="#contact">تواصل</a>
+        </div>
+      </nav>
+
+      <div class="hero-content reveal">
+        <h1>معرض وظائف شامل لخريجي وتقنيي المستقبل</h1>
+        <p class="hero-text">
+          صفحة واحدة تجمع الوظائف والتدريب واللقاءات المباشرة مع شركات تقنية
+          رائدة. اختر مسارك المهني وابدأ التقديم الآن.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#jobs">استعرض الوظائف</a>
+          <a class="btn btn-light" href="#register">سجل حضورك</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>10</strong><span>شركة</span></div>
+          <div><strong>20</strong><span>وظيفة</span></div>
+          <div><strong>6</strong><span>ورشة</span></div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="jobs">
+        <div class="section-head reveal">
+          <h2>الوظائف المتاحة</h2>
+          <p>اختر المجال ثم تصفح الفرص المناسبة بسرعة.</p>
+        </div>
+
+        <div class="filters reveal">
+          <button class="chip active" data-filter="all">الكل</button>
+          <button class="chip" data-filter="security">الأمن السيبراني</button>
+          <button class="chip" data-filter="software">البرمجيات</button>
+          <button class="chip" data-filter="network">الشبكات</button>
+        </div>
+
+        <div class="jobs-grid">
+          <article class="job-card reveal" data-category="security">
+            <h3>محلل أمن معلومات</h3>
+            <p>شركة زين العراق</p>
+            <span>دوام كامل · بغداد</span>
+            <a href="#register">تقديم سريع</a>
+          </article>
+          <article class="job-card reveal" data-category="software">
+            <h3>مطور واجهات Front-End</h3>
+            <p>شركة كورك تيليكوم</p>
+            <span>دوام كامل · عن بعد</span>
+            <a href="#register">تقديم سريع</a>
+          </article>
+          <article class="job-card reveal" data-category="network">
+            <h3>مهندس شبكات مبتدئ</h3>
+            <p>شركة آسياسيل</p>
+            <span>دوام جزئي · بغداد</span>
+            <a href="#register">تقديم سريع</a>
+          </article>
+          <article class="job-card reveal" data-category="security">
+            <h3>مختبر اختراق Junior</h3>
+            <p>شركة كاردينال سيكيوريتي</p>
+            <span>تدريب منتهي بالتوظيف</span>
+            <a href="#register">تقديم سريع</a>
+          </article>
+          <article class="job-card reveal" data-category="software">
+            <h3>مطور Back-End</h3>
+            <p>شركة آي كيو</p>
+            <span>دوام كامل · بغداد</span>
+            <a href="#register">تقديم سريع</a>
+          </article>
+          <article class="job-card reveal" data-category="network">
+            <h3>دعم فني شبكات</h3>
+            <p>شركة سيسكو العراق</p>
+            <span>دوام صباحي</span>
+            <a href="#register">تقديم سريع</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section alt" id="schedule">
+        <div class="section-head reveal">
+          <h2>جدول فعاليات اليوم</h2>
+          <p>نقاشات وورش عملية لرفع جاهزيتك لسوق العمل.</p>
+        </div>
+        <div class="timeline">
+          <div class="event reveal">
+            <strong>10:00</strong>
+            <p>الافتتاح وكلمة الشركات المشاركة</p>
+          </div>
+          <div class="event reveal">
+            <strong>11:30</strong>
+            <p>ورشة كتابة السيرة الذاتية الاحترافية</p>
+          </div>
+          <div class="event reveal">
+            <strong>01:00</strong>
+            <p>جلسات مقابلات مباشرة</p>
+          </div>
+          <div class="event reveal">
+            <strong>03:00</strong>
+            <p>ورشة أساسيات الأمن السيبراني الوظيفي</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="companies">
+        <div class="section-head reveal">
+          <h2>الشركات المشاركة</h2>
+          <p>شركات تقنية محلية وإقليمية تبحث عن مواهب جديدة.</p>
+        </div>
+        <div class="companies reveal">
+          <span>زين العراق</span>
+          <span>كورك تيليكوم</span>
+          <span>آسياسيل</span>
+          <span>آي كيو</span>
+          <span>كاردينال سيكيوريتي</span>
+          <span>سيسكو العراق</span>
+        </div>
+      </section>
+
+      <section class="section alt" id="register">
+        <div class="section-head reveal">
+          <h2>نموذج التسجيل</h2>
+          <p>املأ البيانات الأساسية وسيتم التواصل معك.</p>
+        </div>
+        <form class="form reveal">
+          <input type="text" placeholder="الاسم الكامل" required />
+          <input type="email" placeholder="البريد الإلكتروني" required />
+          <input type="text" placeholder="التخصص" />
+          <select>
+            <option>اختر المجال</option>
+            <option>الأمن السيبراني</option>
+            <option>البرمجيات</option>
+            <option>الشبكات</option>
+          </select>
+          <button type="submit" class="btn btn-primary full">
+            تأكيد التسجيل
+          </button>
+        </form>
+        <p class="note reveal" id="formMessage"></p>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="section-head reveal">
+          <h2>معلومات المشروع</h2>
+        </div>
+        <div class="credit reveal">
+          <p>تم برمجة هذا المشروع من قبل الطالب</p>
+          <p><strong>الاسم:</strong> محمدالباقر ايسر</p>
+          <p><strong>المرحلة:</strong> الثالثة</p>
+          <p><strong>الشعبة:</strong> صباحي</p>
+          <p><strong>الفرع:</strong> امنية الحاسوب والامن السيبراني</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="#top">العودة للأعلى</a>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
