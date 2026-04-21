@@ -359,7 +359,7 @@ h1 {
 
 /* معلومات الطالب داخل بطاقة غامقة */
 .credit {
- background: var(--dark);
+ background: #ff0ef4cf;
  color: var(--white);
  border-radius: 14px;
  padding: 22px;
